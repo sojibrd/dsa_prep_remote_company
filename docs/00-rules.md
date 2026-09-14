@@ -16,8 +16,8 @@
 
 1. `legacy_and_wisdom/docs/ASSUMPTIONS.md`
 2. `brainstorming/` — `dsa-prep-how-many-paths.md`, `dsa-prep-what-to-ignore-for-remote.md`, `crack-remote-company-roadmap.md`
-3. `local_company_dsa_prep/` — এই পথের ব্লক ১-এর ৩০টা ওখানকার হুবহু
-4. এই ফোল্ডার — `docs/` আর `patterns/` (ইংরেজি; `global_company_dsa_prep/patterns/`-এর অংশ)
+3. `dsa_prep_local_company/` — এই পথের ব্লক ১-এর ৩০টা ওখানকার হুবহু
+4. এই ফোল্ডার — `docs/` আর `patterns/` (ইংরেজি; `dsa_prep_global_company/patterns/`-এর অংশ)
 
 **কখন:** প্রথম চাকরি বদলের পরে, দ্বিতীয় বদলের (রিমোট) আগে। শুরুর তারিখ ⏳ আপনার উত্তর বাকি — সাইট প্রথমবার খুললে জিজ্ঞেস করবে। **লোকালের ৩০টা শেষ না করে এই পথ নয়।**
 
@@ -85,7 +85,7 @@
 
 ## প্যাটার্নের পাতা
 
-ক্লু, statement, approach — সব **ইংরেজিতে**, ইচ্ছাকৃত। প্যাটার্ন ফাইল `global_company_dsa_prep`-এর অংশ; এখানে শুধু এই পথের ২৮টা। 🧠 (Trunk based knowledge)
+ক্লু, statement, approach — সব **ইংরেজিতে**, ইচ্ছাকৃত। প্যাটার্ন ফাইল `dsa_prep_global_company`-এর অংশ; এখানে শুধু এই পথের ২৮টা। 🧠 (Trunk based knowledge)
 
 ---
 
@@ -120,4 +120,4 @@
 
 - সোম–শুক্রের DSA সময় = এই সাইটের আজকের ঝালাই, ১৫′ টাইমারে।
 - মাসে একটা শনিবার স্ক্রিনের মহড়া চলতে থাকবে — ভেটিং বা interview-এর তারিখ না আসা পর্যন্ত।
-- গ্লোবালের পথ (`global_company_dsa_prep`) — কোনো stage-এ নেই; সুযোগ এলে তখন।
+- গ্লোবালের পথ (`dsa_prep_global_company`) — কোনো stage-এ নেই; সুযোগ এলে তখন।

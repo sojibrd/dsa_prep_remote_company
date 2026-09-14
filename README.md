@@ -1,10 +1,10 @@
-# remote_company_dsa_prep
+# dsa_prep_remote_company
 
 রিমোট কোম্পানির DSA রাউন্ডের প্রস্তুতি, মোট ৪৯ দিন। রিমোটে DSA সাধারণত দুই রূপে আসে: ভেটিং স্ক্রিন আর live pairing। প্রথম ব্লকে লোকালের ৩০টা প্রবলেম আবার, এবার ঘড়ি ধরে। তারপর নতুন ২০টা: টপিক ১–৫-এর বাকি ভিত্তি, Heaps, Graph-এর BFS/DFS আর সহজ DP। সব ইংরেজিতে, শেখার বিজ্ঞান মেনে। ৫০টা শেষ হলে থামা।
 
-এটা তিন পথের দ্বিতীয়টা: [লোকাল](https://sojibrd.github.io/local_company_dsa_prep/) → রিমোট → [গ্লোবাল](https://sojibrd.github.io/global_company_dsa_prep/)। শুরু হবে প্রথম চাকরি বদলের পরে। শুরুর তারিখ ⏳, সাইট প্রথমবার খুললে জিজ্ঞেস করে।
+এটা তিন পথের দ্বিতীয়টা: [লোকাল](https://sojibrd.github.io/dsa_prep_local_company/) → রিমোট → [গ্লোবাল](https://sojibrd.github.io/dsa_prep_global_company/)। শুরু হবে প্রথম চাকরি বদলের পরে। শুরুর তারিখ ⏳, সাইট প্রথমবার খুললে জিজ্ঞেস করে।
 
-**লাইভ:** https://sojibrd.github.io/remote_company_dsa_prep/
+**লাইভ:** https://sojibrd.github.io/dsa_prep_remote_company/
 
 ## Functional Requirement
 
@@ -18,10 +18,10 @@
 
 ## Non-Functional Requirement
 
-- **কোড `local_company_dsa_prep`-এর হুবহু।** পার্থক্য শুধু `app/lib/site.ts` (prefix `rdsa`, শুরুর প্রস্তাব নেই), basePath আর কনটেন্টে। কোড বদলালে তিন প্রজেক্টেই একই বদল করুন।
+- **কোড `dsa_prep_local_company`-এর হুবহু।** পার্থক্য শুধু `app/lib/site.ts` (prefix `rdsa`, শুরুর প্রস্তাব নেই), basePath আর কনটেন্টে। কোড বদলালে তিন প্রজেক্টেই একই বদল করুন।
 - **সত্যের উৎস `docs/` আর `patterns/`।** কাজের `(LC n)` যদি `patterns/`-এ না মেলে, build ভাঙে।
 - **ফাইলে তারিখ নেই।** তারিখ = শুরুর তারিখ + (দিন − ১)।
-- **`patterns/` হলো `global_company_dsa_prep/patterns/`-এর অংশ।** প্যাটার্ন ফাইল বদলাতে হলে আগে গ্লোবালে বদলান, তারপর এখানে কপি করুন।
+- **`patterns/` হলো `dsa_prep_global_company/patterns/`-এর অংশ।** প্যাটার্ন ফাইল বদলাতে হলে আগে গ্লোবালে বদলান, তারপর এখানে কপি করুন।
 - Static export → GitHub Pages। Progress শুধু `localStorage`-এ, একমাত্র `useProgress.ts` দিয়ে। Theme contract মানা হয়, সাইট dark-only।
 
 ## ডক ইনডেক্স
@@ -36,7 +36,7 @@
 
 ## Progress key
 
-`rdsa:v1:start` · `rdsa:v1:task` · `rdsa:v1:check` · `rdsa:v1:review` · `rdsa:v1:note`। মানের আকার `local_company_dsa_prep`-এর README-তে দেওয়া আছে।
+`rdsa:v1:start` · `rdsa:v1:task` · `rdsa:v1:check` · `rdsa:v1:review` · `rdsa:v1:note`। মানের আকার `dsa_prep_local_company`-এর README-তে দেওয়া আছে।
 
 ## চালানো
 
