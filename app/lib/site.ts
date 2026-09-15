@@ -18,7 +18,7 @@ export const SITE: {
   short: "রিমোট DSA",
   emoji: "🛰️",
   description:
-    "রিমোট কোম্পানির ভেটিং স্ক্রিন আর live pairing-এর জন্য ৫০টা প্রবলেম — লোকালের ৩০টা ঘড়ি ধরে, নতুন ২০টা, ইংরেজিতে, learning to learn-এর নীতিতে।",
+    "রিমোট কোম্পানির ভেটিং স্ক্রিন আর live pairing-এর জন্য ৫০টা প্রবলেম — শূন্য থেকে, প্রথম দিন থেকে ঘড়ি ধরে আর ইংরেজিতে, learning to learn-এর নীতিতে।",
   /** localStorage key-এর prefix — তিন পথের progress আলাদা থাকে */
   storagePrefix: "rdsa",
   /** এই পথ কবে শুরু হবে জানা নেই — প্রস্তাব নেই, আজকের তারিখ দেখায় */
