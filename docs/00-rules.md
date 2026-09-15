@@ -14,7 +14,7 @@
 
 ## সত্যের উৎস
 
-1. `legacy_and_wisdom/docs/ASSUMPTIONS.md`
+1. `brainstorming/ASSUMPTIONS.md`
 2. `brainstorming/` — `dsa-prep-how-many-paths.md`, `dsa-prep-what-to-ignore-for-remote.md`, `crack-remote-company-roadmap.md`
 3. এই ফোল্ডার — `docs/` আর `patterns/` (ইংরেজি; `dsa_prep_global_company/patterns/`-এর অংশ)
 
