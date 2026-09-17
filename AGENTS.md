@@ -12,6 +12,7 @@ DSA-র দিনভিত্তিক তিন সাইটের একটা
 - 🧠 নাম → `app/lib/principles.ts`-এ `learning_to_learn`-এর পাঁচ ডকের **সব** বিষয় আছে; নতুন নাম লিখলে তিন repo-তেই যোগ।
 - Progress পাঁচ key (`start`, `task`, `check`, `review`, `note`) — একমাত্র `app/hooks/useProgress.ts` দিয়ে। `app/lib/plan.ts` ও `app/lib/patterns.ts` server-only।
 - **Theme contract অলঙ্ঘনীয়**, সাইট **dark-only**। plan-এর তথ্য বদলালে ক্রম: `brainstorming/ASSUMPTIONS.md` → `brainstorming/` → ৬ মাসের plan → এই ফোল্ডারগুলো।
+- **Cross-device sync (২০২৬-০৯-১৮, তিন dsa_prep repo-তেই)** — localStorage সবসময় primary (offline-এ পুরোপুরি কাজ করে); sync key বসানো থাকলে `app/hooks/useSync.ts` background-এ একটা শেয়ার্ড Supabase project-এ push/pull করে (`app/lib/supabase.ts`, স্কিমা `supabase/schema.sql`)। Conflict resolution: পুরো blob-এর last-write-wins, `<prefix>:v1:meta`-এর `updatedAt` দিয়ে। Sync key auth-less — random UUID, `sync:v1:key` (prefix ছাড়া, origin-শেয়ার্ড, তাই একই key তিন dsa_prep সাইটেই কাজ করে)। GitHub Actions build-এ `SUPABASE_URL`/`SUPABASE_ANON_KEY` repo secret লাগে (`.github/workflows/deploy.yml`)। Pilot `dsa_prep_local_company`-তে real browser + real Supabase project দিয়ে end-to-end validate করা হয়েছে (push, দ্বিতীয় device সিমুলেট করে pull, RLS)।
 
 <!-- BEGIN:nextjs-agent-rules -->
 
